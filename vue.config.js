@@ -15,4 +15,7 @@ module.exports = {
         return newArgs;
       });
   },
+  transpileDependencies: [
+    'epic-spinners',
+  ],
 };
