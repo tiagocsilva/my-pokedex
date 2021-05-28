@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Rammetto+One&display=swap');
+
+html,
+body {
+  background: #f8f8f8;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.toast {
+  opacity: 1 !important;
+  margin-top: 10px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.button-white {
+  background: #fff;
+  border: none;
+  color: #000;
+
+  &:hover, &:active, &:focus {
+    background: #fff0f0 !important;
+    color: #000 !important;
+  }
+}
+
+.text-custom-secondary {
+  color: $custom-secondary;
+}
+
+/* Transition Fade */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
